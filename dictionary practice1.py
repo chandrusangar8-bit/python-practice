@@ -1,0 +1,16 @@
+student={
+    "name":"chand",
+    "age":20,
+    "dpt":"IT"
+    }
+print(student["name"])
+print(student["dpt"])
+student["age"]=21
+print(student)
+student.update({"grade":"A"})
+print(student)
+student.pop("dpt")
+print(student)
+print(student.keys())
+print(student.values())
+print(student)
